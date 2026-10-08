@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lulu — מסעדה ובר ברחובות</title>
+<meta name="description" content="Lulu — מסעדה ובר ברחוב יעקב 22 ברחובות. קוקטיילים מיוחדים, אוכל טעים ואווירה נהדרת. פתוח כל יום בין 18:00 לחצות.">
+<meta name="theme-color" content="#0a1416">
+<meta name="color-scheme" content="dark">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Lulu">
+<meta property="og:locale" content="he_IL">
+<meta property="og:title" content="Lulu — מסעדה ובר ברחובות">
+<meta property="og:description" content="Lulu — מסעדה ובר ברחוב יעקב 22 ברחובות. קוקטיילים מיוחדים, אוכל טעים ואווירה נהדרת. פתוח כל יום בין 18:00 לחצות.">
+<meta name="twitter:card" content="summary">
+
+<link rel="preload" href="assets/fonts/DMSerifDisplay-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/style.css">
+
+<script>
+  /* Enable reveal animations only if the site's JS actually runs.
+     If main.js never confirms, drop the flag so nothing stays hidden. */
+  (function () {
+    var d = document.documentElement;
+    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    d.classList.add("js");
+    setTimeout(function () { if (!window.__luluReady) d.classList.remove("js"); }, 3000);
+  })();
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BarOrPub",
+  "name": "Lulu",
+  "description": "בר קוקטיילים אינטימי וקסום בלב רחובות, עם אווירה ביתית, חמימה ומיוחדת.",
+  "servesCuisine": [
+    "קוקטיילים",
+    "אוכל"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "יעקב 22",
+    "addressLocality": "רחובות",
+    "addressCountry": "IL"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "18:00",
+      "closes": "00:00"
+    }
+  ],
+  "sameAs": [
+    "https://www.instagram.com/lulu.cocktail.bar/"
+  ]
+}
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">דילוג לתוכן המרכזי</a>
+
+<header class="nav" data-nav>
+  <div class="nav__inner">
+    <a class="brand" href="index.html">Lul<img class="brand__u" src="assets/brand-u.svg" alt="u" width="134" height="200"></a>
+
+    <div class="nav__right">
+      <nav class="nav__links" aria-label="ניווט ראשי">
+        <a class="nav__link" href="index.html" aria-current="page">בית</a>
+        <a class="nav__link" href="menu.html">תפריט</a>
+        <a class="nav__link" href="gallery.html">גלריה</a>
+        <a class="nav__link" href="about.html">אודות</a>
+        <a class="nav__link" href="location.html">מיקום והזמנה</a>
+      </nav>
+
+      <!-- Instagram — deliberately inert until the account link is supplied -->
+      <a class="ig-btn" href="https://www.instagram.com/lulu.cocktail.bar/" target="_blank" rel="noopener noreferrer" aria-label="אינסטגרם">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+          <rect x="3" y="3" width="18" height="18" rx="5"/>
+          <circle cx="12" cy="12" r="4"/>
+          <circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none"/>
+        </svg>
+      </a>
+
+      <button class="nav__toggle" type="button" data-nav-toggle aria-label="פתיחת תפריט" aria-expanded="false">
+        <span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" data-mobile-menu aria-hidden="true">
+  <a href="index.html" aria-current="page">בית</a>
+  <a href="menu.html">תפריט</a>
+  <a href="gallery.html">גלריה</a>
+  <a href="about.html">אודות</a>
+  <a href="location.html">מיקום והזמנת מקום</a>
+  <a class="ig-btn ig-btn--wide" href="https://www.instagram.com/lulu.cocktail.bar/" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+      <rect x="3" y="3" width="18" height="18" rx="5"/>
+      <circle cx="12" cy="12" r="4"/>
+      <circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none"/>
+    </svg>
+    אינסטגרם
+  </a>
+</div>
+
+<!-- the block, carried on down the page behind the content -->
+<div class="plinth" data-plinth aria-hidden="true"><span></span><span></span></div>
+
+<main id="main">
+
+  <!-- ============ hero ============ -->
+  <section class="hero">
+    <div class="wrap">
+      <h1 class="visually-hidden">Lulu — מסעדה ובר ברחוב יעקב 22, רחובות</h1>
+
+      <div class="wordmark" aria-hidden="true">
+        <span>L</span><span>U</span><span>L</span><span>U</span>
+      </div>
+
+      <div class="hero__meta">
+        <p class="eyebrow reveal reveal-d1">מסעדה ובר · רחובות</p>
+        <span></span>
+        <p class="hero__note reveal reveal-d2">
+          קוקטיילים מיוחדים, אוכל טעים ואווירה שנשארת איתכם גם אחרי שיצאתם
+        </p>
+      </div>
+    </div>
+
+    <div class="wrap hero__stage">
+      <div class="hero__glow" aria-hidden="true"></div>
+
+      <!-- The coupe. Hand-drawn SVG: the reference is flat vector gradients,
+           so this matches it far better than a lit 3D mesh — and it costs a
+           few KB with no WebGL, no library and no per-frame render pass. -->
+      <div class="hero__art reveal reveal-d2" aria-hidden="true">
+        <div class="hero__art-lean" data-art>
+          <svg viewBox="0 0 620 780" xmlns="http://www.w3.org/2000/svg" focusable="false">
+            <defs>
+              <radialGradient id="lu-glow" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="#e07a2f" stop-opacity="0.34"/>
+                <stop offset="52%" stop-color="#c25f22" stop-opacity="0.09"/>
+                <stop offset="100%" stop-color="#e07a2f" stop-opacity="0"/>
+              </radialGradient>
+
+              <linearGradient id="lu-cube-top" x1="0.1" y1="0" x2="0.9" y2="1">
+                <stop offset="0%" stop-color="#f0a044"/>
+                <stop offset="55%" stop-color="#d1781f"/>
+                <stop offset="100%" stop-color="#a85a17"/>
+              </linearGradient>
+              <!-- The tail of both faces flattens out, so the gradient arrives
+                   at the join at roughly the same rate the CSS column leaves it.
+                   A step in the rate of change creases the seam even when the
+                   colours either side of it match exactly. -->
+              <linearGradient id="lu-cube-left" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#d97d22"/>
+                <stop offset="44%" stop-color="#ac5a16"/>
+                <stop offset="76%" stop-color="#6f350c"/>
+                <stop offset="92%" stop-color="#66310b"/>
+                <stop offset="100%" stop-color="#65300b"/>
+              </linearGradient>
+              <linearGradient id="lu-cube-right" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#8a4411"/>
+                <stop offset="46%" stop-color="#5c2609"/>
+                <stop offset="78%" stop-color="#351506"/>
+                <stop offset="92%" stop-color="#2f1204"/>
+                <stop offset="100%" stop-color="#2e1204"/>
+              </linearGradient>
+            </defs>
+
+            <!-- night glow behind the drink -->
+            <circle cx="300" cy="290" r="285" fill="url(#lu-glow)"/>
+
+            <!-- the drawn block: only seen if the render below fails to load -->
+            <path d="M305,505 L525,575 L305,645 L85,575 Z" fill="url(#lu-cube-top)"/>
+            <path d="M85,575 L305,645 L305,780 L85,780 Z" fill="url(#lu-cube-left)"/>
+            <path d="M305,645 L525,575 L525,780 L305,780 Z" fill="url(#lu-cube-right)"/>
+
+            <!-- The block, the glass, the drink and the parasol are one Cycles
+                 render (tools/glass/make_glass.py), from this artwork's angle
+                 and covering the drawn block exactly. -->
+            <image id="lu-coupe" href="assets/img/coupe.webp" x="84.62" y="146.15" width="440.77" height="633.85"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrap hero__foot">
+      <p class="scroll-hint reveal reveal-d3">גללו למטה</p>
+      <a class="circle-btn reveal reveal-d3" href="#intro" aria-label="המשך לתוכן">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true">
+          <path d="M12 4v15M6 13.5l6 6 6-6"/>
+        </svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ intro ============ -->
+  <section class="section" id="intro">
+    <div class="wrap">
+      <div class="stack stack--measure">
+        <p class="eyebrow reveal">אודות</p>
+        <h2 class="h-serif reveal reveal-d1">ערב טוב<br>מתחיל בשולחן הנכון.</h2>
+        <p class="lede reveal reveal-d2">
+          לולו הוא מסעדה ובר ברחוב יעקב 22 ברחובות — אווירה נהדרת, שירות מצוין,
+          אוכל טעים וקוקטיילים מיוחדים שמשדרגים את הערב.
+        </p>
+        <p class="reveal reveal-d2 dim">
+          פתוח מדי יום בין 18:00 לחצות. מתאים לבילוי זוגי, למפגש עם חברים
+          או לחגיגה קטנה באמצע השבוע.
+        </p>
+        <p class="reveal reveal-d3">
+          <a class="link" href="about.html">קראו עוד עלינו <span class="arw" aria-hidden="true">→</span></a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ signature ============ -->
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="page-head__row">
+        <h2 class="h-serif h-serif--sm reveal">שלושה שכדאי להתחיל איתם</h2>
+        <p class="reveal reveal-d1">
+          <a class="link" href="menu.html">לתפריט המלא <span class="arw" aria-hidden="true">→</span></a>
+        </p>
+      </div>
+
+      <div class="sig">
+        <article class="sig__item reveal">
+          <span class="sig__num">01</span>
+          <h3 class="sig__name">Blossom</h3>
+          <p class="sig__desc">ג'ין טנקרי, צינזאנו לבן, תמצית אלדרפלאוור וטוניק פיבר טרי ים תיכוני.</p>
+        </article>
+
+        <article class="sig__item reveal reveal-d1">
+          <span class="sig__num">02</span>
+          <h3 class="sig__name">Mirage</h3>
+          <p class="sig__desc">וודקה קטל וואן, קמפרי, מחית תות, מיץ אננס ולימון.</p>
+        </article>
+
+        <article class="sig__item reveal reveal-d2">
+          <span class="sig__num">03</span>
+          <h3 class="sig__name">Fable</h3>
+          <p class="sig__desc">ג'ין טנקרי מושרה בזעתר טרי, תמצית למון גראס, תפוח ירוק וג'ינג'ר.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ gallery strip ============ -->
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="page-head__row">
+        <h2 class="h-serif h-serif--sm reveal">הצצה למקום</h2>
+        <p class="reveal reveal-d1">
+          <a class="link" href="gallery.html">לגלריה <span class="arw" aria-hidden="true">→</span></a>
+        </p>
+      </div>
+
+      <div class="grid-gal">
+        <a class="tile tile--link tile--banner reveal" href="gallery.html">
+          <img src="photos/bar-02.jpg" alt="מדפי הבר של לולו בשעת ערב" width="2000" height="1500" loading="lazy" decoding="async">
+        </a>
+        <a class="tile tile--link tile--p3 reveal reveal-d1" href="gallery.html">
+          <img src="photos/bar-01.jpg" alt="מדף הבקבוקים מואר באור חם" width="1500" height="2000" loading="lazy" decoding="async">
+        </a>
+        <a class="tile tile--link tile--p3 reveal reveal-d2" href="gallery.html">
+          <img src="photos/bar-04.jpg" alt="מושבי בר קטיפה ונברשות נורות תחת השלט של לולו" width="2000" height="1500" loading="lazy" decoding="async" style="object-position: 8% 50%">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ visit ============ -->
+  <section class="section">
+    <div class="wrap">
+      <div class="facts">
+        <div class="reveal">
+          <p class="fact__k">שעות פתיחה</p>
+          <p class="fact__v">כל ימות השבוע<br>18:00 — 00:00</p>
+        </div>
+        <div class="reveal reveal-d1">
+          <p class="fact__k">כתובת</p>
+          <p class="fact__v">רחוב יעקב 22<br>רחובות</p>
+        </div>
+        <div class="reveal reveal-d2">
+          <p class="fact__k">הזמנת מקום</p>
+          <p class="fact__v">
+            <a class="link" href="location.html">שריון שולחן <span class="arw" aria-hidden="true">→</span></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ band ============ -->
+  <section class="band">
+    <div class="wrap">
+      <p class="eyebrow eyebrow--amber reveal">נשמח לראותכם</p>
+      <div class="wordmark wordmark--sm reveal reveal-d1" aria-hidden="true">
+        <span>L</span><span>U</span><span>L</span><span>U</span>
+      </div>
+      <div class="band__actions reveal reveal-d2">
+        <a class="btn" href="location.html">להזמנת מקום</a>
+        <a class="ig-btn ig-btn--wide" href="https://www.instagram.com/lulu.cocktail.bar/" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+            <rect x="3" y="3" width="18" height="18" rx="5"/>
+            <circle cx="12" cy="12" r="4"/>
+            <circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none"/>
+          </svg>
+          אינסטגרם
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__brand">Lul<img class="footer__brand-u" src="assets/brand-u.svg" alt="u" width="134" height="200"></div>
+        <p class="footer__tag">מסעדה ובר · רחובות</p>
+      </div>
+
+      <div>
+        <p class="footer__k">שעות פתיחה</p>
+        <ul class="footer__list">
+          <li><span>כל ימות השבוע</span></li>
+          <li><span>18:00 — 00:00</span></li>
+        </ul>
+      </div>
+
+      <div>
+        <p class="footer__k">ניווט</p>
+        <ul class="footer__list">
+          <li><a href="menu.html">תפריט</a></li>
+          <li><a href="gallery.html">גלריה</a></li>
+          <li><a href="about.html">אודות</a></li>
+          <li><a href="location.html">מיקום והזמנת מקום</a></li>
+          <li><a href="accessibility.html">הצהרת נגישות</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <span>רחוב יעקב 22, רחובות</span>
+      <span>© 2026 Lulu — כל הזכויות שמורות</span>
+    </div>
+    <p class="footer__credit">build by Omri</p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

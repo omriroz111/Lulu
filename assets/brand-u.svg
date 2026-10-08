@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-8 0 134 200" role="img">
+  <title>u</title>
+  <!-- The final letter of the Lulu wordmark, drawn rather than set: the font's
+       "u" has a narrow, almost flat bowl, and the mark needs a real half-round
+       so the letter reads as a filled coupe. Stem weight and x-height are taken
+       from DM Serif Display at the sizes the site sets it, so this sits in the
+       word without looking like a different face.
+
+       Colours are baked in because an SVG embedded through an img tag cannot
+       inherit the page's currentColor. They are the site's own tokens: bone
+       #e9e5db for the letter, amber #e07a2f for the drink, stem and foot. -->
+
+  <!-- The drink and the stem are painted BEFORE the letter, both running a
+       few units into the bowl. The letter then covers the overlap, so the
+       stem reads as emerging from under the bowl with no seam. Painted after
+       the letter, the stem's top cuts an amber notch into the bowl instead. -->
+  <path d="M30,44 L30,65.5 A29,32 0 0 0 88,65.5 L88,44 Z" fill="#e07a2f"/>
+  <rect x="56" y="112" width="6" height="50" fill="#e07a2f"/>
+
+  <!-- the letter: outer silhouette with the counter cut out of it -->
+  <path fill-rule="evenodd" fill="#e9e5db"
+        d="M0,4 L0,57.5 A59,63 0 0 0 118,57.5 L118,4 Z
+           M30,4 L30,65.5 A29,32 0 0 0 88,65.5 L88,4 Z"/>
+  <rect x="-5" y="4" width="40" height="7.5" fill="#e9e5db"/>
+  <rect x="83" y="4" width="40" height="7.5" fill="#e9e5db"/>
+
+  <!-- the foot clears the bowl entirely, so its order does not matter -->
+  <ellipse cx="59" cy="167" rx="46" ry="5.5" fill="#e07a2f"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- The brand mark on its own: the drawn glass-"u" from the wordmark. It is
+       a plain silhouette with one amber fill, so it still reads at 16px, where
+       the full lockup would collapse into a smudge. -->
+  <rect width="64" height="64" rx="12" fill="#0a1416"/>
+  <g transform="translate(13.3 11.5) scale(0.3)">
+    <!-- drink and stem first; the letter paints over where they run into the
+         bowl, so the stem joins it cleanly instead of notching it -->
+    <path d="M30,44 L30,65.5 A29,32 0 0 0 88,65.5 L88,44 Z" fill="#e07a2f"/>
+    <rect x="56" y="112" width="6" height="50" fill="#e07a2f"/>
+    <!-- the letter, with its counter cut out -->
+    <path fill-rule="evenodd" fill="#e9e5db"
+          d="M0,4 L0,57.5 A59,63 0 0 0 118,57.5 L118,4 Z
+             M30,4 L30,65.5 A29,32 0 0 0 88,65.5 L88,4 Z"/>
+    <rect x="-5" y="4" width="40" height="7.5" fill="#e9e5db"/>
+    <rect x="83" y="4" width="40" height="7.5" fill="#e9e5db"/>
+    <!-- the foot -->
+    <ellipse cx="59" cy="167" rx="46" ry="5.5" fill="#e07a2f"/>
+  </g>
+</svg>

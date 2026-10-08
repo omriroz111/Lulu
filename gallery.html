@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>גלריה — Lulu</title>
+<meta name="description" content="גלריית תמונות מ־Lulu, מסעדה ובר ברחוב יעקב 22 ברחובות.">
+<meta name="theme-color" content="#0a1416">
+<meta name="color-scheme" content="dark">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Lulu">
+<meta property="og:locale" content="he_IL">
+<meta property="og:title" content="גלריה — Lulu">
+<meta property="og:description" content="גלריית תמונות מ־Lulu, מסעדה ובר ברחוב יעקב 22 ברחובות.">
+<meta name="twitter:card" content="summary">
+
+<link rel="preload" href="assets/fonts/DMSerifDisplay-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/style.css">
+
+<script>
+  (function () {
+    var d = document.documentElement;
+    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    d.classList.add("js");
+    setTimeout(function () { if (!window.__luluReady) d.classList.remove("js"); }, 3000);
+  })();
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">דילוג לתוכן המרכזי</a>
+
+<header class="nav" data-nav>
+  <div class="nav__inner">
+    <a class="brand" href="index.html">Lul<img class="brand__u" src="assets/brand-u.svg" alt="u" width="134" height="200"></a>
+    <div class="nav__right">
+      <nav class="nav__links" aria-label="ניווט ראשי">
+        <a class="nav__link" href="index.html">בית</a>
+        <a class="nav__link" href="menu.html">תפריט</a>
+        <a class="nav__link" href="gallery.html" aria-current="page">גלריה</a>
+        <a class="nav__link" href="about.html">אודות</a>
+        <a class="nav__link" href="location.html">מיקום והזמנה</a>
+      </nav>
+      <a class="ig-btn" href="https://www.instagram.com/lulu.cocktail.bar/" target="_blank" rel="noopener noreferrer" aria-label="אינסטגרם">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+          <rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/>
+          <circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none"/>
+        </svg>
+      </a>
+      <button class="nav__toggle" type="button" data-nav-toggle aria-label="פתיחת תפריט" aria-expanded="false">
+        <span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" data-mobile-menu aria-hidden="true">
+  <a href="index.html">בית</a>
+  <a href="menu.html">תפריט</a>
+  <a href="gallery.html" aria-current="page">גלריה</a>
+  <a href="about.html">אודות</a>
+  <a href="location.html">מיקום והזמנת מקום</a>
+  <a class="ig-btn ig-btn--wide" href="https://www.instagram.com/lulu.cocktail.bar/" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+      <rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/>
+      <circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none"/>
+    </svg>
+    אינסטגרם
+  </a>
+</div>
+
+<main id="main">
+
+  <section class="page-head">
+    <div class="wrap">
+      <div class="page-head__row">
+        <div>
+          <p class="eyebrow reveal">Lulu · רחובות</p>
+          <h1 class="page-title reveal reveal-d1">גלריה</h1>
+        </div>
+        <p class="hero__note reveal reveal-d2">
+          הצצה אל החלל ואל הבר. לחצו על תמונה כדי להגדיל.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section--tight">
+    <div class="wrap">
+      <div class="grid-gal">
+
+        <!-- Three photos for now. Drop more into photos/ and copy a block. -->
+        <button class="tile tile--banner reveal" type="button" data-tile aria-label="הגדלת תמונה">
+          <img src="photos/bar-02.jpg" alt="מדפי הבר של לולו בשעת ערב" width="2000" height="1500" loading="lazy" decoding="async">
+        </button>
+
+        <button class="tile tile--p3 reveal" type="button" data-tile aria-label="הגדלת תמונה">
+          <img src="photos/bar-01.jpg" alt="מדף הבקבוקים מואר באור חם" width="1500" height="2000" loading="lazy" decoding="async">
+        </button>
+
+        <button class="tile tile--p3 reveal reveal-d1" type="button" data-tile aria-label="הגדלת תמונה">
+          <img src="photos/bar-04.jpg" alt="מושבי בר קטיפה ונברשות נורות תחת השלט של לולו" width="2000" height="1500" loading="lazy" decoding="async" style="object-position: 8% 50%">
+        </button>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap">
+      <p class="eyebrow eyebrow--amber reveal">נשמח לראותכם</p>
+      <div class="wordmark wordmark--sm reveal reveal-d1" aria-hidden="true">
+        <span>L</span><span>U</span><span>L</span><span>U</span>
+      </div>
+      <div class="band__actions reveal reveal-d2">
+        <a class="btn" href="location.html">להזמנת מקום</a>
+        <a class="ig-btn ig-btn--wide" href="https://www.instagram.com/lulu.cocktail.bar/" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+            <rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/>
+            <circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none"/>
+          </svg>
+          אינסטגרם
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- lightbox -->
+<div class="lightbox" data-lightbox aria-hidden="true" role="dialog" aria-modal="true" aria-label="תצוגת תמונה">
+  <button class="lightbox__close" type="button" data-lb-close aria-label="סגירה">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" width="18" height="18" aria-hidden="true">
+      <path d="M6 6l12 12M18 6L6 18"/>
+    </svg>
+  </button>
+  <button class="lightbox__nav lightbox__nav--prev" type="button" data-lb-prev aria-label="הקודם">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" width="18" height="18" aria-hidden="true">
+      <path d="M15 5l-7 7 7 7"/>
+    </svg>
+  </button>
+  <button class="lightbox__nav lightbox__nav--next" type="button" data-lb-next aria-label="הבא">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" width="18" height="18" aria-hidden="true">
+      <path d="M9 5l7 7-7 7"/>
+    </svg>
+  </button>
+  <img src="" alt="">
+</div>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__brand">Lul<img class="footer__brand-u" src="assets/brand-u.svg" alt="u" width="134" height="200"></div>
+        <p class="footer__tag">מסעדה ובר · רחובות</p>
+      </div>
+      <div>
+        <p class="footer__k">שעות פתיחה</p>
+        <ul class="footer__list">
+          <li><span>כל ימות השבוע</span></li>
+          <li><span>18:00 — 00:00</span></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__k">ניווט</p>
+        <ul class="footer__list">
+          <li><a href="menu.html">תפריט</a></li>
+          <li><a href="gallery.html">גלריה</a></li>
+          <li><a href="about.html">אודות</a></li>
+          <li><a href="location.html">מיקום והזמנת מקום</a></li>
+          <li><a href="accessibility.html">הצהרת נגישות</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>רחוב יעקב 22, רחובות</span>
+      <span>© 2026 Lulu — כל הזכויות שמורות</span>
+    </div>
+    <p class="footer__credit">build by Omri</p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
